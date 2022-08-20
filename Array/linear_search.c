@@ -10,6 +10,7 @@ int main()
     {
         scanf("%d", &arr[i]);
     }
+    // find item
     printf("Enter find number in array: ");
     scanf("%d", &find_element);
     for (int i = 0; i < size; i++)

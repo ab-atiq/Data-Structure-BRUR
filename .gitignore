@@ -8,7 +8,5 @@
 #unignore .gitignore
 !.gitignore 
 
-ds_lab
-Exam fact
 Exam practice
 .vscode
