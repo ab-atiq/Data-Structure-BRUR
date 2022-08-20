@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "atomic": "c",
+        "*.tcc": "c",
+        "bitset": "c",
+        "coroutine": "c",
+        "expected": "c",
+        "optional": "c",
+        "system_error": "c",
+        "functional": "c",
+        "regex": "c",
+        "valarray": "c",
+        "unordered_map": "c",
+        "unordered_set": "c"
+    }
+}

@@ -1,3 +1,13 @@
+# extention file remove
+#ignore all files in each directory
+*/*
+#unignore .c files in each director
+!*/*.c
+#unignore .h header files in each directory
+# !*/*.h
+#unignore .gitignore
+!.gitignore 
+
 ds_lab
 Exam fact
 Exam practice
