@@ -13,8 +13,10 @@ int main()
         if (Arr[Loc] == Item)
         {
             Pos = Loc + 1;
+            break;
         }
         Loc++;
+        // printf("%d ",Loc);
     }
     // found
     if (Pos != -1)

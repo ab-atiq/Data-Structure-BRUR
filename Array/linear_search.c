@@ -27,7 +27,8 @@ int main()
     }
     else
     {
-        printf("Successfully find your number in position: %d", pos + 1); // here p indicate index and p+1 indicate position of array.
+        // here p indicate index and p+1 indicate position of array.
+        printf("Successfully find your number in position: %d", pos + 1);
     }
     return 0;
 }
