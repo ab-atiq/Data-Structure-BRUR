@@ -1,28 +1,35 @@
+// stack using array
 #include <stdio.h>
 
 int stack[50];
-int maxstk = 50;
+int maxStack = 50;
 int top = 0;
 
-void push(int item) {
-    if (top == maxstk) {
+void push(int item)
+{
+    if (top == maxStack)
+    {
         printf("OVERFLOW\n");
-        return -1;
     }
     top = top + 1;
     stack[top] = item;
+    printf("Push element: %d\n", item);
 }
 
-int pop() {
-    if (top == 0) {
+int pop()
+{
+    if (top == 0)
+    {
         printf("UNDERFLOW\n");
         return -1;
     }
+    printf("Pop element: %d\n", stack[top]);
     top = top - 1;
-    return stack[top + 1];
+    return stack[top];
 }
 
-int main() {
+int main()
+{
     push(10);
     push(4);
     push(3);
