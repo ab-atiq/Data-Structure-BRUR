@@ -3,6 +3,7 @@
 */*
 #unignore .c files in each director
 !*/*.c
+!*/*.cpp
 #unignore .h header files in each directory
 # !*/*.h
 #unignore .gitignore
